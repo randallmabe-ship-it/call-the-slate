@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T05:10:44.634Z",
+  "updatedAt": "2026-11-26T22:26:00.195205+00:00",
   "results": [
     {
       "gameId": "GB-LAR",
@@ -8,13 +8,21 @@
       "homeScore": 26,
       "source": "https://www.nfl.com/games/packers-at-rams-2026-reg-12?tab=overview",
       "verifiedAt": "2026-11-26T05:10:44.634Z"
+    },
+    {
+      "gameId": "CHI-DET",
+      "status": "final",
+      "awayScore": 39,
+      "homeScore": 35,
+      "source": "https://www.nfl.com/games/bears-at-lions-2026-reg-12",
+      "verifiedAt": "2026-11-26T22:26:00.195205+00:00"
     }
   ],
   "snapshots": [
     {
       "id": "snapshot-1",
       "at": "2026-11-26T05:10:44.634Z",
-      "label": "After GB-LAR 13–26",
+      "label": "After GB-LAR 13\u201326",
       "results": [
         {
           "gameId": "GB-LAR",
@@ -23,6 +31,29 @@
           "homeScore": 26,
           "source": "https://www.nfl.com/games/packers-at-rams-2026-reg-12?tab=overview",
           "verifiedAt": "2026-11-26T05:10:44.634Z"
+        }
+      ]
+    },
+    {
+      "id": "snapshot-2",
+      "at": "2026-11-26T22:26:00.195205+00:00",
+      "label": "After CHI-DET 39\u201335",
+      "results": [
+        {
+          "gameId": "GB-LAR",
+          "status": "final",
+          "awayScore": 13,
+          "homeScore": 26,
+          "source": "https://www.nfl.com/games/packers-at-rams-2026-reg-12?tab=overview",
+          "verifiedAt": "2026-11-26T05:10:44.634Z"
+        },
+        {
+          "gameId": "CHI-DET",
+          "status": "final",
+          "awayScore": 39,
+          "homeScore": 35,
+          "source": "https://www.nfl.com/games/bears-at-lions-2026-reg-12",
+          "verifiedAt": "2026-11-26T22:26:00.195205+00:00"
         }
       ]
     }
