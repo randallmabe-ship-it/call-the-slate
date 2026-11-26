@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#091510">
+  <meta name="description" content="Register your team for the Huddle &amp; Havoc Week 13 football pick’em on Call The Slate.">
+  <title>Week 13 registration | Call The Slate × Huddle &amp; Havoc</title>
+  <link rel="stylesheet" href="./entry.css">
+  <script defer src="./signup.js"></script>
+</head>
+<body>
+  <header>
+    <a href="../" class="brand">CALL THE <b>SLATE</b><small>× HUDDLE &amp; HAVOC</small></a>
+    <a href="../#board">House standings</a>
+  </header>
+  <main>
+    <div class="layout">
+      <div>
+        <p class="kicker">NFL pick’em · December 3–7, 2026</p>
+        <h1>Register for<br><span>Week 13.</span></h1>
+        <p class="lede">Put your team on next week’s slate. There are 14 games, starting with Kansas City at Los Angeles on Thursday, December 3 at 8:15 p.m. ET.</p>
+        <div class="fixtures" aria-label="First and last games">
+          <div class="fixture"><strong>Chiefs at Rams</strong><time datetime="2026-12-03T20:15:00-05:00">Thu, Dec 3 · 8:15 p.m. ET</time></div>
+          <div class="fixture"><strong>Cowboys at Seahawks</strong><time datetime="2026-12-07T20:15:00-05:00">Mon, Dec 7 · 8:15 p.m. ET</time></div>
+        </div>
+      </div>
+      <section class="card" aria-labelledby="entry-title">
+        <div id="signup">
+          <h2 id="entry-title">Your entry</h2>
+          <form id="registration">
+            <div>
+              <label for="team">Team or display name</label>
+              <input id="team" name="team" type="text" required minlength="2" maxlength="50" autocomplete="nickname" aria-describedby="name-note">
+              <p class="hint" id="name-note">Choose a name we can show in standings and videos.</p>
+            </div>
+            <div>
+              <label for="email">Email address</label>
+              <input id="email" name="email" type="email" required maxlength="254" autocomplete="email" aria-describedby="email-note">
+              <p class="hint" id="email-note">Private. Used to identify your entry and contact you about this contest.</p>
+            </div>
+            <fieldset id="formats">
+              <legend>Choose your contest</legend>
+              <label class="option"><input name="straight" type="checkbox" checked><span>The Weekly · $12 <small>Pick each game’s winner.</small></span></label>
+              <label class="option"><input name="spread" type="checkbox"><span>Beat the Spread · $12 <small>Pick each game against the contest line.</small></span></label>
+            </fieldset>
+            <p class="hint" id="entry-note">Each contest is $12 ($10 for the pool and $2 for administration). Registration reserves your entry. Payment and game picks are separate steps.</p>
+            <p class="hint" id="choice-total" aria-live="polite"></p>
+            <div class="ghost" aria-hidden="true"><label>Leave empty <input name="website" type="text" tabindex="-1" autocomplete="off"></label></div>
+            <p id="problem" class="error" role="alert" hidden></p>
+            <button id="submit" type="submit" disabled>Register for Week 13</button>
+            <noscript>Turn on JavaScript to submit your registration.</noscript>
+          </form>
+        </div>
+        <div id="confirmed" aria-live="polite" hidden tabindex="-1">
+          <p class="kicker">Week 13 · Confirmation</p>
+          <h2 id="receipt-heading">You’re registered.</h2>
+          <p id="receipt-details"></p>
+          <p class="small">Save your registration number.</p>
+          <strong class="receipt" id="receipt-number"></strong>
+          <p class="status" id="receipt-next">Payment confirmation and game picks are separate steps. Keep your registration number. For the full slate, make your picks before Chiefs at Rams on December 3.</p>
+          <a href="../#board">Follow this week’s House League</a>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>Call The Slate × Huddle &amp; Havoc · <a href="https://www.nfl.com/schedules/2026/by-week/week-13">Official NFL schedule</a></footer>
+</body>
+</html>
