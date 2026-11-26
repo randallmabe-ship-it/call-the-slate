@@ -9,4 +9,5 @@
 .broadcast-entry img { width: clamp(80px, 10vw, 128px); height: auto; image-rendering: pixelated; }
 .broadcast-entry strong, .broadcast-entry span, .broadcast-entry a { display: block; }
 .broadcast-entry strong { font-size: clamp(1.1rem, 2.6vw, 2.2rem); color: var(--green); }
-.broadcast-entry a { color: var(--muted); font-size: .85rem; overflow-wrap: anywhere; }
+.broadcast-entry a { color: var(--text); font-size: clamp(1.1rem, 2vw, 1.65rem); font-weight: 800; overflow-wrap: anywhere; }
+.broadcast-entry a:hover, .broadcast-entry a:focus-visible { text-decoration: underline; }
