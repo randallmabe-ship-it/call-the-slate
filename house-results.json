@@ -1,5 +1,30 @@
 {
-  "updatedAt": "2026-11-26T00:05:28.561440+00:00",
-  "results": [],
-  "snapshots": []
+  "updatedAt": "2026-11-26T05:10:44.634Z",
+  "results": [
+    {
+      "gameId": "GB-LAR",
+      "status": "final",
+      "awayScore": 13,
+      "homeScore": 26,
+      "source": "https://www.nfl.com/games/packers-at-rams-2026-reg-12?tab=overview",
+      "verifiedAt": "2026-11-26T05:10:44.634Z"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "snapshot-1",
+      "at": "2026-11-26T05:10:44.634Z",
+      "label": "After GB-LAR 13–26",
+      "results": [
+        {
+          "gameId": "GB-LAR",
+          "status": "final",
+          "awayScore": 13,
+          "homeScore": 26,
+          "source": "https://www.nfl.com/games/packers-at-rams-2026-reg-12?tab=overview",
+          "verifiedAt": "2026-11-26T05:10:44.634Z"
+        }
+      ]
+    }
+  ]
 }
