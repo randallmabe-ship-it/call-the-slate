@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T22:26:00.195205+00:00",
+  "updatedAt": "2026-11-27T01:58:41.643697+00:00",
   "results": [
     {
       "gameId": "GB-LAR",
@@ -16,6 +16,14 @@
       "homeScore": 35,
       "source": "https://www.nfl.com/games/bears-at-lions-2026-reg-12",
       "verifiedAt": "2026-11-26T22:26:00.195205+00:00"
+    },
+    {
+      "gameId": "PHI-DAL",
+      "status": "final",
+      "awayScore": 39,
+      "homeScore": 38,
+      "source": "https://www.nfl.com/games/eagles-at-cowboys-2026-reg-12",
+      "verifiedAt": "2026-11-27T01:58:41.643697+00:00"
     }
   ],
   "snapshots": [
@@ -54,6 +62,37 @@
           "homeScore": 35,
           "source": "https://www.nfl.com/games/bears-at-lions-2026-reg-12",
           "verifiedAt": "2026-11-26T22:26:00.195205+00:00"
+        }
+      ]
+    },
+    {
+      "id": "snapshot-3",
+      "at": "2026-11-27T01:58:41.643697+00:00",
+      "label": "After PHI-DAL 39\u201338",
+      "results": [
+        {
+          "gameId": "GB-LAR",
+          "status": "final",
+          "awayScore": 13,
+          "homeScore": 26,
+          "source": "https://www.nfl.com/games/packers-at-rams-2026-reg-12?tab=overview",
+          "verifiedAt": "2026-11-26T05:10:44.634Z"
+        },
+        {
+          "gameId": "CHI-DET",
+          "status": "final",
+          "awayScore": 39,
+          "homeScore": 35,
+          "source": "https://www.nfl.com/games/bears-at-lions-2026-reg-12",
+          "verifiedAt": "2026-11-26T22:26:00.195205+00:00"
+        },
+        {
+          "gameId": "PHI-DAL",
+          "status": "final",
+          "awayScore": 39,
+          "homeScore": 38,
+          "source": "https://www.nfl.com/games/eagles-at-cowboys-2026-reg-12",
+          "verifiedAt": "2026-11-27T01:58:41.643697+00:00"
         }
       ]
     }
