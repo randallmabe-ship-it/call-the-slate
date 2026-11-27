@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T05:05:58.047708+00:00",
+  "updatedAt": "2026-11-27T23:18:19.092741+00:00",
   "results": [
     {
       "gameId": "GB-LAR",
@@ -32,6 +32,14 @@
       "homeScore": 13,
       "source": "https://www.nfl.com/games/chiefs-at-bills-2026-reg-12",
       "verifiedAt": "2026-11-27T05:05:58.047708+00:00"
+    },
+    {
+      "gameId": "DEN-PIT",
+      "status": "final",
+      "awayScore": 5,
+      "homeScore": 27,
+      "source": "https://www.steelers.com/news/steelers-top-broncos-27-5-at-home",
+      "verifiedAt": "2026-11-27T23:18:19.092741+00:00"
     }
   ],
   "snapshots": [
@@ -140,6 +148,53 @@
           "homeScore": 13,
           "source": "https://www.nfl.com/games/chiefs-at-bills-2026-reg-12",
           "verifiedAt": "2026-11-27T05:05:58.047708+00:00"
+        }
+      ]
+    },
+    {
+      "id": "snapshot-5",
+      "at": "2026-11-27T23:18:19.092741+00:00",
+      "label": "After DEN-PIT 5\u201327",
+      "results": [
+        {
+          "gameId": "GB-LAR",
+          "status": "final",
+          "awayScore": 13,
+          "homeScore": 26,
+          "source": "https://www.nfl.com/games/packers-at-rams-2026-reg-12?tab=overview",
+          "verifiedAt": "2026-11-26T05:10:44.634Z"
+        },
+        {
+          "gameId": "CHI-DET",
+          "status": "final",
+          "awayScore": 39,
+          "homeScore": 35,
+          "source": "https://www.nfl.com/games/bears-at-lions-2026-reg-12",
+          "verifiedAt": "2026-11-26T22:26:00.195205+00:00"
+        },
+        {
+          "gameId": "PHI-DAL",
+          "status": "final",
+          "awayScore": 39,
+          "homeScore": 38,
+          "source": "https://www.nfl.com/games/eagles-at-cowboys-2026-reg-12",
+          "verifiedAt": "2026-11-27T01:58:41.643697+00:00"
+        },
+        {
+          "gameId": "KC-BUF",
+          "status": "final",
+          "awayScore": 10,
+          "homeScore": 13,
+          "source": "https://www.nfl.com/games/chiefs-at-bills-2026-reg-12",
+          "verifiedAt": "2026-11-27T05:05:58.047708+00:00"
+        },
+        {
+          "gameId": "DEN-PIT",
+          "status": "final",
+          "awayScore": 5,
+          "homeScore": 27,
+          "source": "https://www.steelers.com/news/steelers-top-broncos-27-5-at-home",
+          "verifiedAt": "2026-11-27T23:18:19.092741+00:00"
         }
       ]
     }
